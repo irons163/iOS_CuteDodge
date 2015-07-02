@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5FC70B61B4540EF00E5A48F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FC70B51B4540EF00E5A48F /* main.m */; };
+		B5FC70B91B4540EF00E5A48F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FC70B81B4540EF00E5A48F /* AppDelegate.m */; };
+		B5FC70BC1B4540EF00E5A48F /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FC70BB1B4540EF00E5A48F /* GameScene.m */; };
+		B5FC70BE1B4540EF00E5A48F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B5FC70BD1B4540EF00E5A48F /* GameScene.sks */; };
+		B5FC70C11B4540EF00E5A48F /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FC70C01B4540EF00E5A48F /* GameViewController.m */; };
+		B5FC70C41B4540EF00E5A48F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5FC70C21B4540EF00E5A48F /* Main.storyboard */; };
+		B5FC70C61B4540EF00E5A48F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5FC70C51B4540EF00E5A48F /* Images.xcassets */; };
+		B5FC70C91B4540EF00E5A48F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5FC70C71B4540EF00E5A48F /* LaunchScreen.xib */; };
+		B5FC70D51B4540EF00E5A48F /* Easy_DodgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FC70D41B4540EF00E5A48F /* Easy_DodgeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5FC70CF1B4540EF00E5A48F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5FC70A81B4540EF00E5A48F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5FC70AF1B4540EF00E5A48F;
+			remoteInfo = Easy_Dodge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5FC70B01B4540EF00E5A48F /* Easy_Dodge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Easy_Dodge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5FC70B41B4540EF00E5A48F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5FC70B51B4540EF00E5A48F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5FC70B71B4540EF00E5A48F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B5FC70B81B4540EF00E5A48F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B5FC70BA1B4540EF00E5A48F /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		B5FC70BB1B4540EF00E5A48F /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		B5FC70BD1B4540EF00E5A48F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		B5FC70BF1B4540EF00E5A48F /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		B5FC70C01B4540EF00E5A48F /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		B5FC70C31B4540EF00E5A48F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5FC70C51B4540EF00E5A48F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B5FC70C81B4540EF00E5A48F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B5FC70CE1B4540EF00E5A48F /* Easy_DodgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Easy_DodgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5FC70D31B4540EF00E5A48F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5FC70D41B4540EF00E5A48F /* Easy_DodgeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Easy_DodgeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5FC70AD1B4540EF00E5A48F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5FC70CB1B4540EF00E5A48F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5FC70A71B4540EF00E5A48F = {
+			isa = PBXGroup;
+			children = (
+				B5FC70B21B4540EF00E5A48F /* Easy_Dodge */,
+				B5FC70D11B4540EF00E5A48F /* Easy_DodgeTests */,
+				B5FC70B11B4540EF00E5A48F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5FC70B11B4540EF00E5A48F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5FC70B01B4540EF00E5A48F /* Easy_Dodge.app */,
+				B5FC70CE1B4540EF00E5A48F /* Easy_DodgeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5FC70B21B4540EF00E5A48F /* Easy_Dodge */ = {
+			isa = PBXGroup;
+			children = (
+				B5FC70B71B4540EF00E5A48F /* AppDelegate.h */,
+				B5FC70B81B4540EF00E5A48F /* AppDelegate.m */,
+				B5FC70BA1B4540EF00E5A48F /* GameScene.h */,
+				B5FC70BB1B4540EF00E5A48F /* GameScene.m */,
+				B5FC70BD1B4540EF00E5A48F /* GameScene.sks */,
+				B5FC70BF1B4540EF00E5A48F /* GameViewController.h */,
+				B5FC70C01B4540EF00E5A48F /* GameViewController.m */,
+				B5FC70C21B4540EF00E5A48F /* Main.storyboard */,
+				B5FC70C51B4540EF00E5A48F /* Images.xcassets */,
+				B5FC70C71B4540EF00E5A48F /* LaunchScreen.xib */,
+				B5FC70B31B4540EF00E5A48F /* Supporting Files */,
+			);
+			path = Easy_Dodge;
+			sourceTree = "<group>";
+		};
+		B5FC70B31B4540EF00E5A48F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5FC70B41B4540EF00E5A48F /* Info.plist */,
+				B5FC70B51B4540EF00E5A48F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5FC70D11B4540EF00E5A48F /* Easy_DodgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5FC70D41B4540EF00E5A48F /* Easy_DodgeTests.m */,
+				B5FC70D21B4540EF00E5A48F /* Supporting Files */,
+			);
+			path = Easy_DodgeTests;
+			sourceTree = "<group>";
+		};
+		B5FC70D21B4540EF00E5A48F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5FC70D31B4540EF00E5A48F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5FC70AF1B4540EF00E5A48F /* Easy_Dodge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5FC70D81B4540EF00E5A48F /* Build configuration list for PBXNativeTarget "Easy_Dodge" */;
+			buildPhases = (
+				B5FC70AC1B4540EF00E5A48F /* Sources */,
+				B5FC70AD1B4540EF00E5A48F /* Frameworks */,
+				B5FC70AE1B4540EF00E5A48F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Easy_Dodge;
+			productName = Easy_Dodge;
+			productReference = B5FC70B01B4540EF00E5A48F /* Easy_Dodge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5FC70CD1B4540EF00E5A48F /* Easy_DodgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5FC70DB1B4540EF00E5A48F /* Build configuration list for PBXNativeTarget "Easy_DodgeTests" */;
+			buildPhases = (
+				B5FC70CA1B4540EF00E5A48F /* Sources */,
+				B5FC70CB1B4540EF00E5A48F /* Frameworks */,
+				B5FC70CC1B4540EF00E5A48F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5FC70D01B4540EF00E5A48F /* PBXTargetDependency */,
+			);
+			name = Easy_DodgeTests;
+			productName = Easy_DodgeTests;
+			productReference = B5FC70CE1B4540EF00E5A48F /* Easy_DodgeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5FC70A81B4540EF00E5A48F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = irons;
+				TargetAttributes = {
+					B5FC70AF1B4540EF00E5A48F = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					B5FC70CD1B4540EF00E5A48F = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = B5FC70AF1B4540EF00E5A48F;
+					};
+				};
+			};
+			buildConfigurationList = B5FC70AB1B4540EF00E5A48F /* Build configuration list for PBXProject "Easy_Dodge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5FC70A71B4540EF00E5A48F;
+			productRefGroup = B5FC70B11B4540EF00E5A48F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5FC70AF1B4540EF00E5A48F /* Easy_Dodge */,
+				B5FC70CD1B4540EF00E5A48F /* Easy_DodgeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5FC70AE1B4540EF00E5A48F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5FC70C91B4540EF00E5A48F /* LaunchScreen.xib in Resources */,
+				B5FC70C61B4540EF00E5A48F /* Images.xcassets in Resources */,
+				B5FC70BE1B4540EF00E5A48F /* GameScene.sks in Resources */,
+				B5FC70C41B4540EF00E5A48F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5FC70CC1B4540EF00E5A48F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5FC70AC1B4540EF00E5A48F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5FC70C11B4540EF00E5A48F /* GameViewController.m in Sources */,
+				B5FC70B91B4540EF00E5A48F /* AppDelegate.m in Sources */,
+				B5FC70BC1B4540EF00E5A48F /* GameScene.m in Sources */,
+				B5FC70B61B4540EF00E5A48F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5FC70CA1B4540EF00E5A48F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5FC70D51B4540EF00E5A48F /* Easy_DodgeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5FC70D01B4540EF00E5A48F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5FC70AF1B4540EF00E5A48F /* Easy_Dodge */;
+			targetProxy = B5FC70CF1B4540EF00E5A48F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5FC70C21B4540EF00E5A48F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5FC70C31B4540EF00E5A48F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5FC70C71B4540EF00E5A48F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5FC70C81B4540EF00E5A48F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5FC70D61B4540EF00E5A48F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B5FC70D71B4540EF00E5A48F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5FC70D91B4540EF00E5A48F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Easy_Dodge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B5FC70DA1B4540EF00E5A48F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Easy_Dodge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B5FC70DC1B4540EF00E5A48F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Easy_DodgeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Easy_Dodge.app/Easy_Dodge";
+			};
+			name = Debug;
+		};
+		B5FC70DD1B4540EF00E5A48F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Easy_DodgeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Easy_Dodge.app/Easy_Dodge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5FC70AB1B4540EF00E5A48F /* Build configuration list for PBXProject "Easy_Dodge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5FC70D61B4540EF00E5A48F /* Debug */,
+				B5FC70D71B4540EF00E5A48F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5FC70D81B4540EF00E5A48F /* Build configuration list for PBXNativeTarget "Easy_Dodge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5FC70D91B4540EF00E5A48F /* Debug */,
+				B5FC70DA1B4540EF00E5A48F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B5FC70DB1B4540EF00E5A48F /* Build configuration list for PBXNativeTarget "Easy_DodgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5FC70DC1B4540EF00E5A48F /* Debug */,
+				B5FC70DD1B4540EF00E5A48F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5FC70A81B4540EF00E5A48F /* Project object */;
+}
