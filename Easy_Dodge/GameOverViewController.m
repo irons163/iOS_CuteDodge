@@ -7,6 +7,8 @@
 //
 
 #import "GameOverViewController.h"
+#import "CommonUtil.h"
+#import "GameViewController.h"
 
 @interface GameOverViewController ()
 
@@ -17,6 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.gameTimeLabel.text = [CommonUtil timeFormatted:self.gameTime];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -34,4 +37,9 @@
 }
 */
 
+- (IBAction)restartClick:(id)sender {
+    [self dismissViewControllerAnimated:true completion:^{
+        [self.gameDelegate restartGame];
+    }];
+}
 @end

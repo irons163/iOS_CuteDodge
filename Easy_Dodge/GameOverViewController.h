@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol gameDelegate;
+
 @interface GameOverViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *gameTimeLabel;
+
+- (IBAction)restartClick:(id)sender;
+
+@property (weak) id<gameDelegate> gameDelegate;
+@property int gameTime;
 
 @end

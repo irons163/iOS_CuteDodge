@@ -10,4 +10,8 @@
 
 @interface CommonUtil : NSObject
 
+//+ (id)sharedInstance;
+
++ (NSString *)timeFormatted:(int)totalSeconds;
+
 @end

@@ -116,7 +116,7 @@ static GameCenterUtil* instance;
         }else{
             NSLog(@"提交成功");
         }
-        [CommonUtil resetGameRecoder:[CommonUtil sharedInstance]];
+//        [CommonUtil resetGameRecoder:[CommonUtil sharedInstance]];
     }];
 }
 

@@ -222,7 +222,7 @@ SKTexture *temp;
     timeQ  = [SKTexture textureWithImageNamed:@"dot"];
     
     timeScores = @[time00, time01, time02, time03, time04, time05,time06, time07, time08, time09, timeQ];
-    
+    /*
     UIImage * image01 = [UIImage imageNamed:@"s1"];
     UIImage * image02 = [UIImage imageNamed:@"s2"];
     UIImage * image03 = [UIImage imageNamed:@"s3"];
@@ -235,6 +235,7 @@ SKTexture *temp;
     UIImage * image00 = [UIImage imageNamed:@"s0"];
     UIImage * imageQ = [UIImage imageNamed:@"dot"];
     timeScoresImages = @[image00, image01, image02, image03, image04, image05, image06, image07, image08, image09, imageQ];
+    */
     
     bg01 = [SKTexture textureWithImageNamed:@"bg01.jpg"];
     bg02 = [SKTexture textureWithImageNamed:@"bg02.jpg"];

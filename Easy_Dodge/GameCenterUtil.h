@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <GameKit/GameKit.h>
-#import "ViewController.h"
+#import "GameViewController.h"
 
 @interface GameCenterUtil : NSObject<GKGameCenterControllerDelegate>
 

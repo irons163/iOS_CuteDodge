@@ -16,6 +16,58 @@
 		B5FC70C61B4540EF00E5A48F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5FC70C51B4540EF00E5A48F /* Images.xcassets */; };
 		B5FC70C91B4540EF00E5A48F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5FC70C71B4540EF00E5A48F /* LaunchScreen.xib */; };
 		B5FC70D51B4540EF00E5A48F /* Easy_DodgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FC70D41B4540EF00E5A48F /* Easy_DodgeTests.m */; };
+		B5FC70E21B46063D00E5A48F /* gameover.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FC70DF1B46063D00E5A48F /* gameover.png */; };
+		B5FC70E31B46063D00E5A48F /* left_keyboard_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FC70E01B46063D00E5A48F /* left_keyboard_btn.png */; };
+		B5FC70E41B46063D00E5A48F /* right_keyboard_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FC70E11B46063D00E5A48F /* right_keyboard_btn.png */; };
+		B5FC70E61B46065D00E5A48F /* fireball.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FC70E51B46065D00E5A48F /* fireball.png */; };
+		B5FC70E91B46075000E5A48F /* TextureHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FC70E81B46075000E5A48F /* TextureHelper.m */; };
+		B5FC70EB1B46094100E5A48F /* hamster.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FC70EA1B46094100E5A48F /* hamster.png */; };
+		B5FC70EE1B4610F400E5A48F /* GameOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FC70ED1B4610F400E5A48F /* GameOverViewController.m */; };
+		B5FC70F11B46155100E5A48F /* CommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FC70F01B46155100E5A48F /* CommonUtil.m */; };
+		B5FC70F31B4626F800E5A48F /* geme_fail_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FC70F21B4626F800E5A48F /* geme_fail_bg.png */; };
+		B5FC70F81B46278D00E5A48F /* en_restart_btn01png.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FC70F41B46278D00E5A48F /* en_restart_btn01png.png */; };
+		B5FC70F91B46278D00E5A48F /* en_restart_btn02png.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FC70F51B46278D00E5A48F /* en_restart_btn02png.png */; };
+		B5FC70FA1B46278D00E5A48F /* en_exit_btn01.png.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FC70F61B46278D00E5A48F /* en_exit_btn01.png.png */; };
+		B5FC70FB1B46278D00E5A48F /* en_exit_btn02.png.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FC70F71B46278D00E5A48F /* en_exit_btn02.png.png */; };
+		B5FC71001B4627B500E5A48F /* exit_btn01.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FC70FC1B4627B500E5A48F /* exit_btn01.png */; };
+		B5FC71011B4627B500E5A48F /* exit_btn02.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FC70FD1B4627B500E5A48F /* exit_btn02.png */; };
+		B5FC71021B4627B500E5A48F /* game_restart_btn01.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FC70FE1B4627B500E5A48F /* game_restart_btn01.png */; };
+		B5FC71031B4627B500E5A48F /* game_restart_btn02.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FC70FF1B4627B500E5A48F /* game_restart_btn02.png */; };
+		B5FC71051B462A0D00E5A48F /* leader_board_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FC71041B462A0D00E5A48F /* leader_board_btn.png */; };
+		B5FC71081B462D6300E5A48F /* GameCenterUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FC71071B462D6300E5A48F /* GameCenterUtil.m */; };
+		B5FC710A1B465D6100E5A48F /* bgMainMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FC71091B465D6100E5A48F /* bgMainMenu.png */; };
+		B5FC710C1B46612200E5A48F /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FC710B1B46612200E5A48F /* start.png */; };
+		B5FC710E1B46616400E5A48F /* game_resume_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FC710D1B46616400E5A48F /* game_resume_btn.png */; };
+		B5FC71111B466B0600E5A48F /* GameOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FC70ED1B4610F400E5A48F /* GameOverViewController.m */; };
+		B5FC71121B466B0600E5A48F /* TextureHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FC70E81B46075000E5A48F /* TextureHelper.m */; };
+		B5FC71131B466B0600E5A48F /* CommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FC70F01B46155100E5A48F /* CommonUtil.m */; };
+		B5FC71141B466B0600E5A48F /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FC70C01B4540EF00E5A48F /* GameViewController.m */; };
+		B5FC71151B466B0600E5A48F /* GameCenterUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FC71071B462D6300E5A48F /* GameCenterUtil.m */; };
+		B5FC71161B466B0600E5A48F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FC70B81B4540EF00E5A48F /* AppDelegate.m */; };
+		B5FC71171B466B0600E5A48F /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FC70BB1B4540EF00E5A48F /* GameScene.m */; };
+		B5FC71181B466B0600E5A48F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FC70B51B4540EF00E5A48F /* main.m */; };
+		B5FC711B1B466B0600E5A48F /* exit_btn02.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FC70FD1B4627B500E5A48F /* exit_btn02.png */; };
+		B5FC711C1B466B0600E5A48F /* game_resume_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FC710D1B46616400E5A48F /* game_resume_btn.png */; };
+		B5FC711D1B466B0600E5A48F /* fireball.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FC70E51B46065D00E5A48F /* fireball.png */; };
+		B5FC711E1B466B0600E5A48F /* right_keyboard_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FC70E11B46063D00E5A48F /* right_keyboard_btn.png */; };
+		B5FC711F1B466B0600E5A48F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5FC70C71B4540EF00E5A48F /* LaunchScreen.xib */; };
+		B5FC71201B466B0600E5A48F /* en_restart_btn02png.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FC70F51B46278D00E5A48F /* en_restart_btn02png.png */; };
+		B5FC71211B466B0600E5A48F /* exit_btn01.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FC70FC1B4627B500E5A48F /* exit_btn01.png */; };
+		B5FC71221B466B0600E5A48F /* gameover.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FC70DF1B46063D00E5A48F /* gameover.png */; };
+		B5FC71231B466B0600E5A48F /* en_restart_btn01png.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FC70F41B46278D00E5A48F /* en_restart_btn01png.png */; };
+		B5FC71241B466B0600E5A48F /* en_exit_btn02.png.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FC70F71B46278D00E5A48F /* en_exit_btn02.png.png */; };
+		B5FC71251B466B0600E5A48F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5FC70C51B4540EF00E5A48F /* Images.xcassets */; };
+		B5FC71261B466B0600E5A48F /* game_restart_btn01.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FC70FE1B4627B500E5A48F /* game_restart_btn01.png */; };
+		B5FC71271B466B0600E5A48F /* en_exit_btn01.png.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FC70F61B46278D00E5A48F /* en_exit_btn01.png.png */; };
+		B5FC71281B466B0600E5A48F /* bgMainMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FC71091B465D6100E5A48F /* bgMainMenu.png */; };
+		B5FC71291B466B0600E5A48F /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FC710B1B46612200E5A48F /* start.png */; };
+		B5FC712A1B466B0600E5A48F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B5FC70BD1B4540EF00E5A48F /* GameScene.sks */; };
+		B5FC712B1B466B0600E5A48F /* leader_board_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FC71041B462A0D00E5A48F /* leader_board_btn.png */; };
+		B5FC712C1B466B0600E5A48F /* geme_fail_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FC70F21B4626F800E5A48F /* geme_fail_bg.png */; };
+		B5FC712D1B466B0600E5A48F /* game_restart_btn02.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FC70FF1B4627B500E5A48F /* game_restart_btn02.png */; };
+		B5FC712E1B466B0600E5A48F /* left_keyboard_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FC70E01B46063D00E5A48F /* left_keyboard_btn.png */; };
+		B5FC712F1B466B0600E5A48F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5FC70C21B4540EF00E5A48F /* Main.storyboard */; };
+		B5FC71301B466B0600E5A48F /* hamster.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FC70EA1B46094100E5A48F /* hamster.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +97,34 @@
 		B5FC70CE1B4540EF00E5A48F /* Easy_DodgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Easy_DodgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5FC70D31B4540EF00E5A48F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5FC70D41B4540EF00E5A48F /* Easy_DodgeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Easy_DodgeTests.m; sourceTree = "<group>"; };
+		B5FC70DF1B46063D00E5A48F /* gameover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameover.png; sourceTree = "<group>"; };
+		B5FC70E01B46063D00E5A48F /* left_keyboard_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left_keyboard_btn.png; sourceTree = "<group>"; };
+		B5FC70E11B46063D00E5A48F /* right_keyboard_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right_keyboard_btn.png; sourceTree = "<group>"; };
+		B5FC70E51B46065D00E5A48F /* fireball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fireball.png; sourceTree = "<group>"; };
+		B5FC70E71B46075000E5A48F /* TextureHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureHelper.h; sourceTree = "<group>"; };
+		B5FC70E81B46075000E5A48F /* TextureHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextureHelper.m; sourceTree = "<group>"; };
+		B5FC70EA1B46094100E5A48F /* hamster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hamster.png; sourceTree = "<group>"; };
+		B5FC70EC1B4610F400E5A48F /* GameOverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverViewController.h; sourceTree = "<group>"; };
+		B5FC70ED1B4610F400E5A48F /* GameOverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverViewController.m; sourceTree = "<group>"; };
+		B5FC70EF1B46155100E5A48F /* CommonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtil.h; sourceTree = "<group>"; };
+		B5FC70F01B46155100E5A48F /* CommonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtil.m; sourceTree = "<group>"; };
+		B5FC70F21B4626F800E5A48F /* geme_fail_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = geme_fail_bg.png; sourceTree = "<group>"; };
+		B5FC70F41B46278D00E5A48F /* en_restart_btn01png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = en_restart_btn01png.png; sourceTree = "<group>"; };
+		B5FC70F51B46278D00E5A48F /* en_restart_btn02png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = en_restart_btn02png.png; sourceTree = "<group>"; };
+		B5FC70F61B46278D00E5A48F /* en_exit_btn01.png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = en_exit_btn01.png.png; sourceTree = "<group>"; };
+		B5FC70F71B46278D00E5A48F /* en_exit_btn02.png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = en_exit_btn02.png.png; sourceTree = "<group>"; };
+		B5FC70FC1B4627B500E5A48F /* exit_btn01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exit_btn01.png; sourceTree = "<group>"; };
+		B5FC70FD1B4627B500E5A48F /* exit_btn02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exit_btn02.png; sourceTree = "<group>"; };
+		B5FC70FE1B4627B500E5A48F /* game_restart_btn01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = game_restart_btn01.png; sourceTree = "<group>"; };
+		B5FC70FF1B4627B500E5A48F /* game_restart_btn02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = game_restart_btn02.png; sourceTree = "<group>"; };
+		B5FC71041B462A0D00E5A48F /* leader_board_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leader_board_btn.png; sourceTree = "<group>"; };
+		B5FC71061B462D6300E5A48F /* GameCenterUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCenterUtil.h; sourceTree = "<group>"; };
+		B5FC71071B462D6300E5A48F /* GameCenterUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCenterUtil.m; sourceTree = "<group>"; };
+		B5FC71091B465D6100E5A48F /* bgMainMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgMainMenu.png; sourceTree = "<group>"; };
+		B5FC710B1B46612200E5A48F /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+		B5FC710D1B46616400E5A48F /* game_resume_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = game_resume_btn.png; sourceTree = "<group>"; };
+		B5FC71341B466B0600E5A48F /* QuteDodge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuteDodge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5FC71351B466B0600E5A48F /* QuteDodge copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuteDodge copy-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +142,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B5FC71191B466B0600E5A48F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -71,6 +158,7 @@
 				B5FC70B21B4540EF00E5A48F /* Easy_Dodge */,
 				B5FC70D11B4540EF00E5A48F /* Easy_DodgeTests */,
 				B5FC70B11B4540EF00E5A48F /* Products */,
+				B5FC71351B466B0600E5A48F /* QuteDodge copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +167,7 @@
 			children = (
 				B5FC70B01B4540EF00E5A48F /* Easy_Dodge.app */,
 				B5FC70CE1B4540EF00E5A48F /* Easy_DodgeTests.xctest */,
+				B5FC71341B466B0600E5A48F /* QuteDodge.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,13 +175,22 @@
 		B5FC70B21B4540EF00E5A48F /* Easy_Dodge */ = {
 			isa = PBXGroup;
 			children = (
+				B5FC70DE1B46061D00E5A48F /* Images */,
 				B5FC70B71B4540EF00E5A48F /* AppDelegate.h */,
 				B5FC70B81B4540EF00E5A48F /* AppDelegate.m */,
+				B5FC70EF1B46155100E5A48F /* CommonUtil.h */,
+				B5FC70F01B46155100E5A48F /* CommonUtil.m */,
 				B5FC70BA1B4540EF00E5A48F /* GameScene.h */,
 				B5FC70BB1B4540EF00E5A48F /* GameScene.m */,
 				B5FC70BD1B4540EF00E5A48F /* GameScene.sks */,
 				B5FC70BF1B4540EF00E5A48F /* GameViewController.h */,
 				B5FC70C01B4540EF00E5A48F /* GameViewController.m */,
+				B5FC70EC1B4610F400E5A48F /* GameOverViewController.h */,
+				B5FC70ED1B4610F400E5A48F /* GameOverViewController.m */,
+				B5FC71061B462D6300E5A48F /* GameCenterUtil.h */,
+				B5FC71071B462D6300E5A48F /* GameCenterUtil.m */,
+				B5FC70E71B46075000E5A48F /* TextureHelper.h */,
+				B5FC70E81B46075000E5A48F /* TextureHelper.m */,
 				B5FC70C21B4540EF00E5A48F /* Main.storyboard */,
 				B5FC70C51B4540EF00E5A48F /* Images.xcassets */,
 				B5FC70C71B4540EF00E5A48F /* LaunchScreen.xib */,
@@ -125,6 +223,31 @@
 				B5FC70D31B4540EF00E5A48F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5FC70DE1B46061D00E5A48F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B5FC70DF1B46063D00E5A48F /* gameover.png */,
+				B5FC70E01B46063D00E5A48F /* left_keyboard_btn.png */,
+				B5FC70E11B46063D00E5A48F /* right_keyboard_btn.png */,
+				B5FC70E51B46065D00E5A48F /* fireball.png */,
+				B5FC70EA1B46094100E5A48F /* hamster.png */,
+				B5FC70F21B4626F800E5A48F /* geme_fail_bg.png */,
+				B5FC70F41B46278D00E5A48F /* en_restart_btn01png.png */,
+				B5FC70F51B46278D00E5A48F /* en_restart_btn02png.png */,
+				B5FC70F61B46278D00E5A48F /* en_exit_btn01.png.png */,
+				B5FC70F71B46278D00E5A48F /* en_exit_btn02.png.png */,
+				B5FC70FC1B4627B500E5A48F /* exit_btn01.png */,
+				B5FC70FD1B4627B500E5A48F /* exit_btn02.png */,
+				B5FC70FE1B4627B500E5A48F /* game_restart_btn01.png */,
+				B5FC70FF1B4627B500E5A48F /* game_restart_btn02.png */,
+				B5FC71041B462A0D00E5A48F /* leader_board_btn.png */,
+				B5FC71091B465D6100E5A48F /* bgMainMenu.png */,
+				B5FC710B1B46612200E5A48F /* start.png */,
+				B5FC710D1B46616400E5A48F /* game_resume_btn.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +288,23 @@
 			productReference = B5FC70CE1B4540EF00E5A48F /* Easy_DodgeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		B5FC710F1B466B0600E5A48F /* QuteDodge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5FC71311B466B0600E5A48F /* Build configuration list for PBXNativeTarget "QuteDodge" */;
+			buildPhases = (
+				B5FC71101B466B0600E5A48F /* Sources */,
+				B5FC71191B466B0600E5A48F /* Frameworks */,
+				B5FC711A1B466B0600E5A48F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuteDodge;
+			productName = Easy_Dodge;
+			productReference = B5FC71341B466B0600E5A48F /* QuteDodge.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -183,7 +323,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B5FC70AB1B4540EF00E5A48F /* Build configuration list for PBXProject "Easy_Dodge" */;
+			buildConfigurationList = B5FC70AB1B4540EF00E5A48F /* Build configuration list for PBXProject "QuteDodge" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -198,6 +338,7 @@
 			targets = (
 				B5FC70AF1B4540EF00E5A48F /* Easy_Dodge */,
 				B5FC70CD1B4540EF00E5A48F /* Easy_DodgeTests */,
+				B5FC710F1B466B0600E5A48F /* QuteDodge */,
 			);
 		};
 /* End PBXProject section */
@@ -207,10 +348,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5FC71011B4627B500E5A48F /* exit_btn02.png in Resources */,
+				B5FC710E1B46616400E5A48F /* game_resume_btn.png in Resources */,
+				B5FC70E61B46065D00E5A48F /* fireball.png in Resources */,
+				B5FC70E41B46063D00E5A48F /* right_keyboard_btn.png in Resources */,
 				B5FC70C91B4540EF00E5A48F /* LaunchScreen.xib in Resources */,
+				B5FC70F91B46278D00E5A48F /* en_restart_btn02png.png in Resources */,
+				B5FC71001B4627B500E5A48F /* exit_btn01.png in Resources */,
+				B5FC70E21B46063D00E5A48F /* gameover.png in Resources */,
+				B5FC70F81B46278D00E5A48F /* en_restart_btn01png.png in Resources */,
+				B5FC70FB1B46278D00E5A48F /* en_exit_btn02.png.png in Resources */,
 				B5FC70C61B4540EF00E5A48F /* Images.xcassets in Resources */,
+				B5FC71021B4627B500E5A48F /* game_restart_btn01.png in Resources */,
+				B5FC70FA1B46278D00E5A48F /* en_exit_btn01.png.png in Resources */,
+				B5FC710A1B465D6100E5A48F /* bgMainMenu.png in Resources */,
+				B5FC710C1B46612200E5A48F /* start.png in Resources */,
 				B5FC70BE1B4540EF00E5A48F /* GameScene.sks in Resources */,
+				B5FC71051B462A0D00E5A48F /* leader_board_btn.png in Resources */,
+				B5FC70F31B4626F800E5A48F /* geme_fail_bg.png in Resources */,
+				B5FC71031B4627B500E5A48F /* game_restart_btn02.png in Resources */,
+				B5FC70E31B46063D00E5A48F /* left_keyboard_btn.png in Resources */,
 				B5FC70C41B4540EF00E5A48F /* Main.storyboard in Resources */,
+				B5FC70EB1B46094100E5A48F /* hamster.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +380,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B5FC711A1B466B0600E5A48F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5FC711B1B466B0600E5A48F /* exit_btn02.png in Resources */,
+				B5FC711C1B466B0600E5A48F /* game_resume_btn.png in Resources */,
+				B5FC711D1B466B0600E5A48F /* fireball.png in Resources */,
+				B5FC711E1B466B0600E5A48F /* right_keyboard_btn.png in Resources */,
+				B5FC711F1B466B0600E5A48F /* LaunchScreen.xib in Resources */,
+				B5FC71201B466B0600E5A48F /* en_restart_btn02png.png in Resources */,
+				B5FC71211B466B0600E5A48F /* exit_btn01.png in Resources */,
+				B5FC71221B466B0600E5A48F /* gameover.png in Resources */,
+				B5FC71231B466B0600E5A48F /* en_restart_btn01png.png in Resources */,
+				B5FC71241B466B0600E5A48F /* en_exit_btn02.png.png in Resources */,
+				B5FC71251B466B0600E5A48F /* Images.xcassets in Resources */,
+				B5FC71261B466B0600E5A48F /* game_restart_btn01.png in Resources */,
+				B5FC71271B466B0600E5A48F /* en_exit_btn01.png.png in Resources */,
+				B5FC71281B466B0600E5A48F /* bgMainMenu.png in Resources */,
+				B5FC71291B466B0600E5A48F /* start.png in Resources */,
+				B5FC712A1B466B0600E5A48F /* GameScene.sks in Resources */,
+				B5FC712B1B466B0600E5A48F /* leader_board_btn.png in Resources */,
+				B5FC712C1B466B0600E5A48F /* geme_fail_bg.png in Resources */,
+				B5FC712D1B466B0600E5A48F /* game_restart_btn02.png in Resources */,
+				B5FC712E1B466B0600E5A48F /* left_keyboard_btn.png in Resources */,
+				B5FC712F1B466B0600E5A48F /* Main.storyboard in Resources */,
+				B5FC71301B466B0600E5A48F /* hamster.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -228,7 +416,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5FC70EE1B4610F400E5A48F /* GameOverViewController.m in Sources */,
+				B5FC70E91B46075000E5A48F /* TextureHelper.m in Sources */,
+				B5FC70F11B46155100E5A48F /* CommonUtil.m in Sources */,
 				B5FC70C11B4540EF00E5A48F /* GameViewController.m in Sources */,
+				B5FC71081B462D6300E5A48F /* GameCenterUtil.m in Sources */,
 				B5FC70B91B4540EF00E5A48F /* AppDelegate.m in Sources */,
 				B5FC70BC1B4540EF00E5A48F /* GameScene.m in Sources */,
 				B5FC70B61B4540EF00E5A48F /* main.m in Sources */,
@@ -240,6 +432,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5FC70D51B4540EF00E5A48F /* Easy_DodgeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5FC71101B466B0600E5A48F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5FC71111B466B0600E5A48F /* GameOverViewController.m in Sources */,
+				B5FC71121B466B0600E5A48F /* TextureHelper.m in Sources */,
+				B5FC71131B466B0600E5A48F /* CommonUtil.m in Sources */,
+				B5FC71141B466B0600E5A48F /* GameViewController.m in Sources */,
+				B5FC71151B466B0600E5A48F /* GameCenterUtil.m in Sources */,
+				B5FC71161B466B0600E5A48F /* AppDelegate.m in Sources */,
+				B5FC71171B466B0600E5A48F /* GameScene.m in Sources */,
+				B5FC71181B466B0600E5A48F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,10 +610,36 @@
 			};
 			name = Release;
 		};
+		B5FC71321B466B0600E5A48F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "QuteDodge copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = QuteDodge;
+				PROVISIONING_PROFILE = "1b7b5f9c-e5cd-48eb-9d78-cd085f7bda88";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5FC71331B466B0600E5A48F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "QuteDodge copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = QuteDodge;
+				PROVISIONING_PROFILE = "1b7b5f9c-e5cd-48eb-9d78-cd085f7bda88";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B5FC70AB1B4540EF00E5A48F /* Build configuration list for PBXProject "Easy_Dodge" */ = {
+		B5FC70AB1B4540EF00E5A48F /* Build configuration list for PBXProject "QuteDodge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B5FC70D61B4540EF00E5A48F /* Debug */,
@@ -422,6 +655,7 @@
 				B5FC70DA1B4540EF00E5A48F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5FC70DB1B4540EF00E5A48F /* Build configuration list for PBXNativeTarget "Easy_DodgeTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +664,16 @@
 				B5FC70DD1B4540EF00E5A48F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5FC71311B466B0600E5A48F /* Build configuration list for PBXNativeTarget "QuteDodge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5FC71321B466B0600E5A48F /* Debug */,
+				B5FC71331B466B0600E5A48F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
