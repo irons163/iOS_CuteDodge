@@ -316,10 +316,16 @@
 				TargetAttributes = {
 					B5FC70AF1B4540EF00E5A48F = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = T6VV6T753H;
 					};
 					B5FC70CD1B4540EF00E5A48F = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = T6VV6T753H;
 						TestTargetID = B5FC70AF1B4540EF00E5A48F;
+					};
+					B5FC710F1B466B0600E5A48F = {
+						DevelopmentTeam = T6VV6T753H;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -328,6 +334,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -560,6 +567,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T6VV6T753H;
 				INFOPLIST_FILE = Easy_Dodge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -570,6 +578,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T6VV6T753H;
 				INFOPLIST_FILE = Easy_Dodge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -580,6 +589,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T6VV6T753H;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -599,6 +609,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T6VV6T753H;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -614,11 +625,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.4.2105010;
+				DEVELOPMENT_TEAM = T6VV6T753H;
 				INFOPLIST_FILE = "QuteDodge copy-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.4;
 				PRODUCT_NAME = QuteDodge;
 				PROVISIONING_PROFILE = "1b7b5f9c-e5cd-48eb-9d78-cd085f7bda88";
+				PROVISIONING_PROFILE_SPECIFIER = QuteDodgeProfile;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -627,11 +643,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.4.2105010;
+				DEVELOPMENT_TEAM = T6VV6T753H;
 				INFOPLIST_FILE = "QuteDodge copy-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.4;
 				PRODUCT_NAME = QuteDodge;
 				PROVISIONING_PROFILE = "1b7b5f9c-e5cd-48eb-9d78-cd085f7bda88";
+				PROVISIONING_PROFILE_SPECIFIER = QuteDodgeProfile;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

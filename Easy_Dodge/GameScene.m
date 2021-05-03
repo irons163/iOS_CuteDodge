@@ -302,34 +302,16 @@ const int backgroundLayerZPosition = -3;
 -(void)checkPlayerMoved{
     if(key == left){
         player.xScale = 1;
-        player.position = CGPointMake(player.position.x - moveDestance, player.position.y);
-        SKTexture * bitmap;
-//        if(walkCount%2==0){
-//            bitmap = playerTextures[PLAYER_LEFT_WALK02_INDEX];
-//        }else if(walkCount%3==0){
-//            bitmap = playerTextures[PLAYER_LEFT_WALK01_INDEX];
-//        }else{
-//            bitmap = playerTextures[PLAYER_LEFT_WALK03_INDEX];
-//        }
-//        player.texture = bitmap;
-//        walkCount++;
+        player.position = CGPointMake(player.position.x - moveDestance - player.size.width / 2 < 0 ? player.size.width / 2 : player.position.x - moveDestance, player.position.y);
+        
         if(!isMoving){
             isMoving = true;
             SKAction* move = [SKAction animateWithTextures:leftNsArray timePerFrame:0.2];
             [player runAction:[SKAction repeatActionForever:move]];
         }
     }else if(key == right){
-        player.position = CGPointMake(player.position.x + moveDestance, player.position.y);
-//        SKTexture * bitmap;
-//        if(walkCount%2==0){
-//            bitmap = playerTextures[PLAYER_RIGHT_WALK02_INDEX];
-//        }else if(walkCount%3==0){
-//            bitmap = playerTextures[PLAYER_RIGHT_WALK01_INDEX];
-//        }else{
-//            bitmap = playerTextures[PLAYER_RIGHT_WALK03_INDEX];
-//        }
-//        player.texture = bitmap;
-//        walkCount++;
+        player.position = CGPointMake(player.position.x + moveDestance + player.size.width / 2 > self.frame.size.width ? self.frame.size.width - player.size.width / 2 : player.position.x + moveDestance, player.position.y);
+
         player.xScale = -1;
         if(!isMoving){
             isMoving = true;
