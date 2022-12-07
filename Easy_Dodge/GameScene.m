@@ -33,10 +33,7 @@ const static int PLAYER_RIGHT_INJURE_INDEX = 9;
 
 const int backgroundLayerZPosition = -3;
 
-//int catMaxHp = DEFAULT_HP;
-//int catCurrentHp = DEFAULT_HP;
-
-@implementation GameScene{
+@implementation GameScene {
     int walkCount;
     int gameTime;
     float fireballInterval;
@@ -46,44 +43,38 @@ const int backgroundLayerZPosition = -3;
     int key;
     bool isMoving;
     
-    NSTimer * theGameTimer;
+    NSTimer *theGameTimer;
     
-    SKSpriteNode * backgroundNode;
-    SKLabelNode * clearedMonsterLabel;
-    SKSpriteNode * player;
-    //    SKSpriteNode * fireball;
-    SKSpriteNode * leftKey;
-    SKSpriteNode * rightKey;
-    SKSpriteNode * rankBtn;
-    SKSpriteNode * pauseBtnNode;
+    SKSpriteNode *backgroundNode;
+    SKLabelNode *clearedMonsterLabel;
+    SKSpriteNode *player;
+    SKSpriteNode *leftKey;
+    SKSpriteNode *rightKey;
+    SKSpriteNode *rankBtn;
+    SKSpriteNode *pauseBtnNode;
     
-//    NSMutableArray * playerTextures;
-    NSMutableArray * fireballs;
-    NSMutableArray * footbardsByLines;
+    NSMutableArray *fireballs;
+    NSMutableArray *footbardsByLines;
     
-    NSArray * hamsterDefaultArray;
-    NSArray * rightNsArray;
-    NSArray * leftNsArray;
+    NSArray *hamsterDefaultArray;
+    NSArray *rightNsArray;
+    NSArray *leftNsArray;
 }
 
--(void)initTextures{
+- (void)initTextures {
     hamsterDefaultArray = [TextureHelper getTexturesWithSpriteSheetNamed:@"hamster" withinNode:nil sourceRect:CGRectMake(0, 0, 192, 200) andRowNumberOfSprites:2 andColNumberOfSprites:7
                                                                 sequence:@[@7]];
-
+    
     rightNsArray = [TextureHelper getTexturesWithSpriteSheetNamed:@"hamster" withinNode:nil sourceRect:CGRectMake(0, 0, 192, 200) andRowNumberOfSprites:2 andColNumberOfSprites:7
-                    //            sequence:[NSArray arrayWithObjects:@"10",@"11",@"12",@"11",@"10", nil]];
                                                          sequence:@[@5,@6]];
     
     leftNsArray = [TextureHelper getTexturesWithSpriteSheetNamed:@"hamster" withinNode:nil sourceRect:CGRectMake(0, 0, 192, 200) andRowNumberOfSprites:2 andColNumberOfSprites:7
-                   //            sequence:[NSArray arrayWithObjects:@"10",@"11",@"12",@"11",@"10", nil]];
                                                         sequence:@[@5,@6]];
 }
 
--(void)initGameTimeTextLabel{
+- (void)initGameTimeTextLabel {
     clearedMonsterLabel = [SKLabelNode labelNodeWithFontNamed:@"Chalkduster"];
     
-    //        clearedMonsterLabel.position = CGPointMake(CGRectGetMidX(self.frame),
-    //                                                   CGRectGetMidY(self.frame));
     clearedMonsterLabel.text = @"00:00:00";
     clearedMonsterLabel.fontSize = 20;
     clearedMonsterLabel.color = [SKColor colorWithRed:0.15 green:0.15 blue:0.3 alpha:1.0];
@@ -92,7 +83,7 @@ const int backgroundLayerZPosition = -3;
     [self addChild:clearedMonsterLabel];
 }
 
--(void)didMoveToView:(SKView *)view {
+- (void)didMoveToView:(SKView *)view {
     /* Setup your scene here */
     
     fireballInterval = 0.7;
@@ -125,7 +116,6 @@ const int backgroundLayerZPosition = -3;
     player = [SKSpriteNode spriteNodeWithTexture:hamsterDefaultArray[PLAYER_STAY_LEFT_INDEX]];
     player.size = CGSizeMake(60, 60);
     player.position = CGPointMake(self.frame.size.width/2, player.size.height/2);
-//    player.anchorPoint = CGPointMake(0, 0);
     
     [self addChild:leftKey];
     [self addChild:rightKey];
@@ -147,80 +137,70 @@ const int backgroundLayerZPosition = -3;
     [self initGameTimer];
 }
 
--(void)setGameTimeNodeText{
-    NSString * s = [CommonUtil timeFormatted:gameTime];
+- (void)setGameTimeNodeText {
+    NSString *s = [CommonUtil timeFormatted:gameTime];
     
     clearedMonsterLabel.text = s;
-    clearedMonsterLabel.position = CGPointMake(clearedMonsterLabel.frame.size.width/2, self.frame.size.height - 100 - clearedMonsterLabel.frame.size.height);
+    clearedMonsterLabel.position = CGPointMake(clearedMonsterLabel.frame.size.width / 2, self.frame.size.height - 100 - clearedMonsterLabel.frame.size.height);
 }
 
--(void)initGameTimer{
-    
+- (void)initGameTimer {
     theGameTimer = [NSTimer scheduledTimerWithTimeInterval:1.0
                                                     target:self
                                                   selector:@selector(countGameTime)
                                                   userInfo:nil
                                                    repeats:YES];
-//    [timers addObject:theGameTimer];
 }
 
--(void)countGameTime{
-    //    if(gameTime>3600){
-    ////        theGameTimerLabel.text = @"";
-    //        [theGameTimer invalidate];
-    //        return;
-    //    }
+- (void)countGameTime {
     
-    if(!isGameRun){
+    if (!isGameRun) {
         return;
     }
     
     gameTime++;
     
-    if(gameTime==60){
+    if (gameTime == 60) {
         fireballInterval = 0.6;
-    }else if(gameTime==120){
+    } else if (gameTime == 120) {
         fireballInterval = 0.5;
-    }else if(gameTime==180){
+    } else if (gameTime == 180) {
         fireballInterval = 0.4;
-    }else if(gameTime==240){
+    } else if (gameTime == 240) {
         fireballInterval = 0.3;
     }
     
     [self setGameTimeNodeText];
 }
 
--(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     /* Called when a touch begins */
     
     for (UITouch *touch in touches) {
         CGPoint location = [touch locationInNode:self];
         
-        if(pauseBtnNode.hidden==false){
-            if(CGRectContainsPoint(pauseBtnNode.calculateAccumulatedFrame, location)){
+        if (pauseBtnNode.hidden == false) {
+            if(CGRectContainsPoint(pauseBtnNode.calculateAccumulatedFrame, location)) {
                 [self setGameRun:YES];
                 [self setPaused:false];
             }
-        }
-        else if(CGRectContainsPoint(leftKey.calculateAccumulatedFrame, location)){
+        } else if (CGRectContainsPoint(leftKey.calculateAccumulatedFrame, location)) {
             
             isPressLeftMoveBtn = true;
             key = left;
             
-        }else if(CGRectContainsPoint(rightKey.calculateAccumulatedFrame, location)){
+        } else if (CGRectContainsPoint(rightKey.calculateAccumulatedFrame, location)) {
             
             isPressRightMoveBtn = true;
             key = right;
-        }else if(CGRectContainsPoint(rankBtn.calculateAccumulatedFrame, location)){
-            //        rankBtn.texture = storeBtnClickTextureArray[PRESSED_TEXTURE_INDEX];
-            
+        } else if (CGRectContainsPoint(rankBtn.calculateAccumulatedFrame, location)) {
             [self.gameDelegate showRankView];
         }
         
     }
 }
 
--(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event{
+- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
     
     for (UITouch *touch in touches) {
         CGPoint location = [touch locationInNode:self];
@@ -259,48 +239,33 @@ const int backgroundLayerZPosition = -3;
     }
 }
 
--(void)setGameRun:(bool)isrun {
+- (void)setGameRun:(bool)isrun {
     [self setViewRun:isrun];
     [self setPauseBtnHidden:isrun];
 }
 
--(void)setPauseBtnHidden:(bool)isrun {
-    //    isGameRun = isrun;
-    
+- (void)setPauseBtnHidden:(bool)isrun {
     pauseBtnNode.hidden = isrun;
 }
 
--(void)setViewRun:(bool)isrun{
+- (void)setViewRun:(bool)isrun {
     isGameRun = isrun;
-
+    
     for (int i = 0; i < [self children].count; i++) {
-        SKNode * n = [self children][i];
+        SKNode *n = [self children][i];
         n.paused = !isrun;
     }
-
-   
-//    for (int i = 0; i < [self children].count; i++) {
-//        SKNode * n = [self children][i];
-//        n.paused = !isrun;
-//    }
-//    
-//    if (pauseBtnNode.hidden == false && !isrun) {
-//        return;
-//    }
-//    
-//    isGameRun = isrun;
-
 }
 
--(void)beHited{
+- (void)beHited {
     [self setViewRun:false];
-    GameCenterUtil * gameCenterUtil = [GameCenterUtil sharedInstance];
+    GameCenterUtil *gameCenterUtil = [GameCenterUtil sharedInstance];
     [gameCenterUtil reportScore:gameTime forCategory:@"QuteDodgeLeaderBoard"];
     [self.gameDelegate showGameOver];
 }
 
--(void)checkPlayerMoved{
-    if(key == left){
+- (void)checkPlayerMoved {
+    if (key == left) {
         player.xScale = 1;
         player.position = CGPointMake(player.position.x - moveDestance - player.size.width / 2 < 0 ? player.size.width / 2 : player.position.x - moveDestance, player.position.y);
         
@@ -309,34 +274,34 @@ const int backgroundLayerZPosition = -3;
             SKAction* move = [SKAction animateWithTextures:leftNsArray timePerFrame:0.2];
             [player runAction:[SKAction repeatActionForever:move]];
         }
-    }else if(key == right){
+    } else if (key == right) {
         player.position = CGPointMake(player.position.x + moveDestance + player.size.width / 2 > self.frame.size.width ? self.frame.size.width - player.size.width / 2 : player.position.x + moveDestance, player.position.y);
-
+        
         player.xScale = -1;
-        if(!isMoving){
+        if (!isMoving) {
             isMoving = true;
-        SKAction* move = [SKAction animateWithTextures:rightNsArray timePerFrame:0.2];
-        [player runAction:[SKAction repeatActionForever:move]];
+            SKAction *move = [SKAction animateWithTextures:rightNsArray timePerFrame:0.2];
+            [player runAction:[SKAction repeatActionForever:move]];
         }
     }
 }
 
--(void)clearFireballAfterHitFootboard:(NSMutableArray*)fireballWillClear{
-    for (SKSpriteNode* fireball in fireballWillClear) {
+- (void)clearFireballAfterHitFootboard:(NSMutableArray *)fireballWillClear {
+    for (SKSpriteNode *fireball in fireballWillClear) {
         [fireball removeFromParent];
         [fireballs removeObject:fireball];
     }
     [fireballWillClear removeAllObjects];
 }
 
--(void)clearFireball{
-    for (SKSpriteNode* fireball in fireballs) {
+- (void)clearFireball {
+    for (SKSpriteNode *fireball in fireballs) {
         [fireball removeFromParent];
         [fireballs removeObject:fireball];
     }
 }
 
--(int)gameTime{
+- (int)gameTime {
     return gameTime;
 }
 
@@ -352,8 +317,8 @@ const int backgroundLayerZPosition = -3;
         float collisionWdith = fireballFreme.size.width/3;
         float collisionHeight = fireballFreme.size.height/2;
         CGRect fireballCollisionFrame = CGRectMake(fireballFreme.origin.x + fireballFreme.size.width/2 - collisionWdith/2, fireballFreme.origin.y + collisionHeight/3*2, collisionWdith, collisionHeight);
-        //            CGRect playerCollisionFrame = CGRectMake(playerFreme.origin.x, playerFreme.origin.y +10, collisionWdith, collisionHeight);
-        if(CGRectIntersectsRect(fireballCollisionFrame, playerFreme)){
+        
+        if (CGRectIntersectsRect(fireballCollisionFrame, playerFreme)) {
             [self beHited];
         }
     }
@@ -361,9 +326,7 @@ const int backgroundLayerZPosition = -3;
     if (self.lastSpawnTimeInterval > fireballInterval) {
         self.lastSpawnTimeInterval = 0;
         
-        
-        
-        SKSpriteNode * fireball = [SKSpriteNode spriteNodeWithImageNamed:@"fireball"];
+        SKSpriteNode *fireball = [SKSpriteNode spriteNodeWithImageNamed:@"fireball"];
         fireball.size = CGSizeMake(50, 70);
         int x = arc4random_uniform(self.frame.size.width - fireball.size.width);
         fireball.anchorPoint = CGPointMake(0, 0);
@@ -372,42 +335,33 @@ const int backgroundLayerZPosition = -3;
         [self addChild:fireball];
         [fireballs addObject:fireball];
         
-        SKAction * move = [SKAction moveToY:0 duration:1.5];
-        SKAction * end = [SKAction runBlock:^{
+        SKAction *move = [SKAction moveToY:0 duration:1.5];
+        SKAction *end = [SKAction runBlock:^{
             [fireball removeFromParent];
             [fireballs removeObject:fireball];
         }];
         
         [fireball runAction:[SKAction sequence:@[move, end]]];
-        
-//        [self moveFootboard];
-        
     }
     
     if (self.lastSpawnMoveTimeInterval > 0.1) {
         self.lastSpawnMoveTimeInterval = 0;
         
         [self checkPlayerMoved];
-//        [self clearFootboard];
     }
     
-    if(self.lastSpawnCreateFootboardTimeInterval > 3.0){
+    if (self.lastSpawnCreateFootboardTimeInterval > 3.0) {
         self.lastSpawnCreateFootboardTimeInterval = 0;
-        
-//        [self createFootboard];
     }
 }
 
--(void)update:(CFTimeInterval)currentTime {
-//    if (pauseBtnNode.hidden==false) {
-//        [self setViewRun:false];
-//        return;
-//    }
+- (void)update:(CFTimeInterval)currentTime {
+
     if(!isGameRun){
         [self setViewRun:false];
         return;
     }
-
+    
     /* Called before each frame is rendered */
     // 获取时间增量
     // 如果我们运行的每秒帧数低于60，我们依然希望一切和每秒60帧移动的位移相同
@@ -419,7 +373,6 @@ const int backgroundLayerZPosition = -3;
     }
     
     [self updateWithTimeSinceLastUpdate:timeSinceLast];
-    
 }
 
 @end

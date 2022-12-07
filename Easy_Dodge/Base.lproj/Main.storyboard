@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="LVB-YS-i5n">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="LVB-YS-i5n">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
-        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
-        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Game View Controller-->
@@ -15,13 +16,14 @@
                         <viewControllerLayoutGuide type="bottom" id="b3d-qh-BLL"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="bdc-N1-crn" customClass="SKView">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="btX-cZ-eVz" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="0.0" y="-20"/>
         </scene>
         <!--Game Over View Controller-->
         <scene sceneID="F3J-bc-uE4">
@@ -32,11 +34,11 @@
                         <viewControllerLayoutGuide type="bottom" id="PZ3-ub-WDb"/>
                     </layoutGuides>
                     <view key="view" alpha="0.89999997615814209" contentMode="scaleToFill" id="HlS-3T-QlD">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="geme_fail_bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="oys-q4-lBC">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="gameover.png" translatesAutoresizingMaskIntoConstraints="NO" id="nA8-3V-Q6v">
                                 <rect key="frame" x="140" y="125" width="320" height="102"/>
@@ -52,13 +54,13 @@
                                 </variation>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uNb-X8-mwg">
-                                <rect key="frame" x="250" y="275" width="100" height="50"/>
+                                <rect key="frame" x="157" y="537" width="100" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="0Ah-hM-Sbp"/>
                                     <constraint firstAttribute="height" constant="50" id="8Oe-T8-jXf"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="en_restart_btn01png.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <state key="highlighted" image="en_restart_btn02png.png"/>
                                 <connections>
@@ -71,7 +73,7 @@
                                     <constraint firstAttribute="width" constant="88" id="JDk-SM-lvy"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Your Time:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NVz-50-Bd3">
@@ -80,11 +82,11 @@
                                     <constraint firstAttribute="width" constant="104" id="wBL-Ww-QXD"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="nA8-3V-Q6v" firstAttribute="top" secondItem="a7c-zL-HtG" secondAttribute="bottom" constant="105" id="1gc-cD-EcR"/>
                             <constraint firstItem="NVz-50-Bd3" firstAttribute="leading" secondItem="nA8-3V-Q6v" secondAttribute="centerX" constant="-100" id="Mb8-X3-Hmf"/>
@@ -108,8 +110,8 @@
                             <mask key="constraints">
                                 <exclude reference="1gc-cD-EcR"/>
                                 <exclude reference="TCH-Fa-lYL"/>
-                                <exclude reference="wZ4-h5-BGn"/>
                                 <exclude reference="URp-Vt-x7R"/>
+                                <exclude reference="wZ4-h5-BGn"/>
                             </mask>
                         </variation>
                     </view>
@@ -124,9 +126,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="en_restart_btn01png.png" width="330" height="150"/>
-        <image name="en_restart_btn02png.png" width="330" height="150"/>
+        <image name="en_restart_btn01png.png" width="67.885711669921875" height="30.857143402099609"/>
+        <image name="en_restart_btn02png.png" width="67.885711669921875" height="30.857143402099609"/>
         <image name="gameover.png" width="432" height="102"/>
-        <image name="geme_fail_bg.png" width="450" height="800"/>
+        <image name="geme_fail_bg.png" width="92.571426391601562" height="164.57142639160156"/>
     </resources>
 </document>

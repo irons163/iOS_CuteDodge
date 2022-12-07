@@ -20,4 +20,5 @@
 - (void)showGameCenter:(UIViewController*)viewController;
 - (void) reportScore: (int64_t) score forCategory: (NSString*) category;
 - (void)submitAllSavedScores;
+
 @end
